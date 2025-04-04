@@ -1,3 +1,3 @@
 ### TypeScript
 
-learning TypeScript..
+Learning TypeScript ...
