@@ -14,3 +14,6 @@ const newuser : one = [4 , "jkh"]
 newuser[1]="hcd"
 // newuser.push(true)
 // note hitesh didnt had this error in his tutorial, maybe ts has improved now
+
+
+export {}
