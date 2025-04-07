@@ -32,10 +32,6 @@ raj.email="hdop"    //allowed
 //raj.dbid=64       //not allowed as we have studied earlier that its readonly
 
 
-
-
-
-
 export{}
 
 
