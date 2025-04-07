@@ -10,7 +10,7 @@ usertup = ["sd" , 12 , true]
 // let rgb : [number,number,number] = [23 , 34,45 , 4]  //this gives erro coz only 3 numbers are allowed
 
 type one = [number , string]
-const newuser : one = [4,"jkh"]
+const newuser : one = [4 , "jkh"]
 newuser[1]="hcd"
 // newuser.push(true)
 // note hitesh didnt had this error in his tutorial, maybe ts has improved now
