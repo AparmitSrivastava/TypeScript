@@ -44,3 +44,7 @@ const shyam : Admin =  {
     getCoupon : (name:"mmttrip" , off:20)=>{return 10}
 }
 // the diff is available in typescript documentation
+
+
+
+export {}
