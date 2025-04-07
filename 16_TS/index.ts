@@ -27,3 +27,6 @@ class User {
       }
 }
 const raju = new User("h@h.com" , "sunny")
+
+
+export {}
