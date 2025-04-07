@@ -5,7 +5,7 @@ let user2:(string|number)[] = ["hc" , 1] //this is also corrct
 
 let usertup : [string , number , boolean]
 usertup = ["sd" , 12 , true]
-// so order of the array also matters here
+// so order of the array also matters here..
 
 // let rgb : [number,number,number] = [23 , 34,45 , 4]  //this gives erro coz only 3 numbers are allowed
 
