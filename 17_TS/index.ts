@@ -1,39 +1,39 @@
 // getter and setter   - imp for interview
 
 class UserJi {
-    private _courseCount =1
-    readonly city : string = "delhi"
-    constructor(public email : string , private name:string){
-      }
-
-    //   just like private properties we can also have private methods
-    private dleteToken(){
-        console.log("token dleted");
-        
+    private _courseCount = 1
+    readonly city: string = "delhi"
+    constructor(public email: string, private name: string) {
     }
 
-       get getAppleEmail ():string{
-            return `apple-${this.email}`
-       }
+    //   just like private properties we can also have private methods
+    private dleteToken() {
+        console.log("token dleted");
+
+    }
+
+    get getAppleEmail(): string {
+        return `apple-${this.email}`
+    }
 
     //    coursecount cannot be accessed directly so we'll be using getter and setter to access it and set its value
-       get courseCount() : number {
+    get courseCount(): number {
         return this._courseCount
-       }
+    }
 
     //    set courseCount(courseNumber):void{}   
     // this gives error coz in TS setters cannot have return type annotation ( not even void ) so the proper way is -
-    
+
     set courseCount(courseNum) {
-        if(courseNum<=1){
-            throw new Error ("course count should be more than 1")
+        if (courseNum <= 1) {
+            throw new Error("course count should be more than 1")
         }
         this._courseCount = courseNum
     }
 }
 
-const raj1 = new UserJi("h@h.com" , "raj")
-export {}
+const raj1 = new UserJi("h@h.com", "raj")
+export { }
 
 // raj.dleteToken()---- not allowed as this is a private method so its allowed only inside the class
 
