@@ -31,7 +31,6 @@ type bird = {fly : ()=> void}
 //   problem is that when we hover on line 23 and 26 ,we see ts is still confised whether its a fish or bird , but actally abhi tak to ts ko ye pta ho jana chahie tha as we have passed line 16's func
 // so to avoid this we write 
 
-
 function isfish(pet:fish | bird): pet is fish{
     return (pet as fish).swim !== undefined
     // this is type casting by sing as keyword
