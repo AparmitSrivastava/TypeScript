@@ -45,7 +45,6 @@ class Insta extends TakePhoto {
 }
 
 
-
 const hero = new Insta("test", "test" , 5)
 hero.getReelTime()
 
