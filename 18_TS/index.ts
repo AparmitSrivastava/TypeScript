@@ -39,4 +39,6 @@ class Subuser extends User1 {
 // subuser gains access to all the props of user1 except the private props ,as provate props can be acsd only inside their own class
 
 const raj2 = new User1("h@h.com", "raj")
+
+
 export {}
