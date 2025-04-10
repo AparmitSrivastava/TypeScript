@@ -15,7 +15,6 @@ interface Rectangle{
 }
 /*
 type shape = Circle | Square 
-
 function getTrueShape(shape : shape){
     if(shape.kind === "circle"){
         return Math.PI * shape.radii ** 2;
