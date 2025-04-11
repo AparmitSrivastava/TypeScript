@@ -1,5 +1,4 @@
-// discriminated union
-
+// Discriminated union
 interface Circle {
     kind : "circle",
     radii : number
