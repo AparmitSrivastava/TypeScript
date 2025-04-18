@@ -40,4 +40,4 @@ const themeColors: Record<Theme, string> = {
   blue: "#00f"
 };
 
-// Super useful when you have static sets (like modes, themes, roles).
+// these utility types can come very handy in situation where we have to specify or apply some rules/ specs
