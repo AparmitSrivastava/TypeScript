@@ -40,5 +40,4 @@ const themeColors: Record<Theme, string> = {
   blue: "#00f"
 };
 
-
 // these utility types can come very handy in situation where we have to specify or apply some rules/ specs
