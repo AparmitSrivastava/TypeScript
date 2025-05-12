@@ -40,4 +40,16 @@ const themeColors: Record<Theme, string> = {
   blue: "#00f"
 };
 
+
+// 6.readonly
+const readonlyUser: Readonly<User> = {
+  id: "1",
+  name: "Bob",
+  email: "bob@example.com",
+  password: "hidden"
+};
+
+// readonlyUser.name = "Alice";  Error
+
+
 // these utility types can come very handy in situation where we have to specify or apply some rules/ specs
