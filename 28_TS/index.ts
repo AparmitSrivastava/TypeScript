@@ -15,6 +15,9 @@ const errors: ErrorBag = {
   username: "Too short",
   password: "Must include a symbol"
 };
+
+// Use Case: Great for form validation or dynamic error messages.
+
 // All keys must be strings ,All values must be strings
 
 const invalid: ErrorBag = {
