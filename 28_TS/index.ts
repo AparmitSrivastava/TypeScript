@@ -17,9 +17,9 @@ const errors: ErrorBag = {
 };
 
 // Use Case: Great for form validation or dynamic error messages.
-
 // All keys must be strings ,All values must be strings
 
 const invalid: ErrorBag = {
-//   age: 30 //  Error: number is not assignable to string
+  // age: 30 //  Error: number is not assignable to string
+  // marks:true
 };
